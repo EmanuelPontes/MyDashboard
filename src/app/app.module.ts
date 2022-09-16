@@ -20,7 +20,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     LoginModule,
     
     BrowserAnimationsModule,
-         FontAwesomeModule,
+    FontAwesomeModule,
 
   ],
   providers: [],
