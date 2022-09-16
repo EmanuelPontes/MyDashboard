@@ -1,0 +1,41 @@
+
+
+.grid-wrap {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: 
+    ". main ."
+    ". main ."
+    " .main ."
+    "footer footer footer"; 
+
+    background-image: url("/assets/img/dashboard_book_3.png"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh; 
+    max-width: 100%; 
+    width: 100%;
+
+
+    h1 { font-family: orangeJuice; font-size: 3rem;  }
+}
+
+main {
+    grid-area: main;
+    align-self: center;
+    justify-self: center;
+
+    
+    
+    .card, .card-header, .card-body {
+        background-color: #d5ba89ad;
+    }
+}
+
+
+footer {
+    grid-area: footer;
+}

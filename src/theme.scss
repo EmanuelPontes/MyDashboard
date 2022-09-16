@@ -1,0 +1,41 @@
+$parchment-palette: (
+ 50: #f4eee2,
+ 100: #e5d5b6,
+ 200: #d5ba89,
+ 300: #c8a058,
+ 400: #c18e32,
+ 500: #ba7d12,
+ 600: #b7730e,
+ 700: #b7730e,
+ 800: #b7730e,
+ 900: #a14400,
+ // ... continues to 900
+ contrast: (
+   50: rgba(black, 0.87),
+   100: rgba(black, 0.87),
+   200: rgba(black, 0.87),
+   300: white,
+   // ... continues to 900
+ )
+);
+
+$success-palette: (
+ 50: #e7f7ee,
+ 100: #c5ead5,
+ 200: #9fddbb,
+ 300: #76d0a1,
+ 400: #55c58c,
+ 500: #2ebb78,
+ 600: #27ab6d,
+ 700: #1f9860,
+ 800: #198754,
+ 900: #10673e,
+ // ... continues to 900
+ contrast: (
+   50: rgba(black, 0.87),
+   100: rgba(black, 0.87),
+   200: rgba(black, 0.87),
+   300: white,
+   // ... continues to 900
+ )
+);
